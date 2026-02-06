@@ -1,11 +1,16 @@
+/*  Variables   */
+:root{
+    --color-principal: #fab22e;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
 }
 
 body{
-    background-color: #fab22e;
+    background-color: var(--color-principal);
 }
 
 .wrapper{
@@ -18,4 +23,24 @@ body{
     left: 50%;
     border-radius: 5px;
     box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+button{
+    display: block;
 }
