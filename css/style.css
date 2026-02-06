@@ -1,6 +1,7 @@
 /*  Variables   */
 :root{
     --color-principal: #fab22e;
+    --color-white: #ffffff;
 }
 *{
     padding: 0;
@@ -33,7 +34,7 @@ span{
 
 p{
     font-size: 16px;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 400;
     text-align: center;
     word-wrap: break-word;
@@ -43,4 +44,19 @@ p{
 
 button{
     display: block;
+    background-color: var(--color-principal);
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #171721;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button:hover{
+    background-color: var(--color-white);
 }
